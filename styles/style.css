@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Overlock";
+  src: local(Overlock), url(../fonts/Overlock-Regular.ttf);
+}
+@font-face {
+  font-family: "Overlock";
+  src: local(Overlock Bold), url(../fonts/Overlock-BlackItalic.ttf);
+  font-weight: bold;
+}
+h1,
+h2 {
+  color: hsl(30 100% 41%);
+}
+h1 {
+  span {
+    color: hsl(0 0% 20%);
+  }
+}
+a {
+  color: hsl(30 100% 41%);
+}
+p {
+  color: hsl(0 0% 20%);
+}
+
+.lead {
+  font-size: 21px;
+}
