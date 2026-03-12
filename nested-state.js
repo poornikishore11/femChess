@@ -1,5 +1,5 @@
 const redux = require('redux');
-const produce = require('imer').produce
+const produce = require('immer').produce
 const initialState={
     name:'Vishwas',
     address: {
