@@ -15,4 +15,3 @@ store.dispatch(icecreamActions.ordered());
 store.dispatch(icecreamActions.restocked(1));
 
 unsubscribe();
-//hello
